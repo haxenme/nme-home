@@ -28,7 +28,7 @@ function OutlinedButtons(props) {
         <Button variant="outlined" href="/documentation" className={classes.cssRoot}>Documentation</Button>
       </div>
       <div className="Navigation-Section">
-        <Button variant="outlined" href="#outlined-buttons" className={classes.cssRoot}>Github</Button>
+        <Button variant="outlined" href="https://github.com/haxenme/nme" className={classes.cssRoot}>Github</Button>
       </div>
     </div>
   );
