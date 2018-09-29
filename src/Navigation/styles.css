@@ -1,0 +1,27 @@
+.Navigation {
+  width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+  background-color: #F05A22;
+  color: white;
+}
+.Navigation-Section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+}
+
+.Navigation-Section-Logo {
+  margin:20px;
+  width: 100px;
+  height: 100px;
+}
+
+.Navigation a {
+  margin-top:auto;
+  margin-bottom:auto;
+
+}
