@@ -14,6 +14,10 @@
   justify-content: flex-start;
 }
 
+.Navigation-Section:last-child {
+  margin-right:30px;
+}
+
 .Navigation-Section-Logo {
   margin:20px;
   width: 100px;
@@ -23,5 +27,4 @@
 .Navigation a {
   margin-top:auto;
   margin-bottom:auto;
-
 }
