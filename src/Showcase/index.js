@@ -50,16 +50,19 @@ function TitlebarGridList(props) {
       <GridList cellHeight={180} className={classes.gridList}>
         {tileData.map(tile => (
           <GridListTile key={tile.img}>
+
             <img src={tile.img} alt={tile.title} />
+            <a href={tile.link}>
             <GridListTileBar
               title={tile.title}
               subtitle={<span>by: {tile.author}</span>}
               actionIcon={
-                <IconButton className={classes.icon}>
+                <IconButton className={classes.icon} href={tile.link} >
                   <InfoIcon />
                 </IconButton>
               }
             />
+            </a>
           </GridListTile>
         ))}
       </GridList>
