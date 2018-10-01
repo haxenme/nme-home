@@ -16,16 +16,16 @@ class App extends Component {
           <Route exact={true} path="/" render={() => (
             <p>Native Media Engine: A proven backend for native iOS, Android, Windows, Mac and Linux</p>
           )} />
-          <Route path="/getting_started" render={() => (
+          <Route path="/nme-home/getting_started" render={() => (
             <GettingStarted />
           )} />
-          <Route path="/showcase" render={() => (
+          <Route path="/nme-home/showcase" render={() => (
             <Showcase />
           )} />
-          <Route path="/demos" render={() => (
+          <Route path="/nme-home/demos" render={() => (
             <p>Demos!</p>
           )} />
-          <Route path="/documentation" render={() => (
+          <Route path="/nme-home/documentation" render={() => (
             <p>Documentation!</p>
           )} />
         </div>

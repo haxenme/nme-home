@@ -22,10 +22,10 @@ function OutlinedButtons(props) {
     <div className="Navigation">
       <div className="Navigation-Section">
         <img src={logo} className="Navigation-Section-Logo" alt="logo" />
-        <Button variant="outlined" href="/getting_started" className={classes.cssRoot}>Get Started</Button>
-        <Button variant="outlined" href="/showcase" className={classes.cssRoot}>Showcase</Button>
-        <Button variant="outlined" href="/demos" className={classes.cssRoot}>Demos</Button>
-        <Button variant="outlined" href="/documentation" className={classes.cssRoot}>Documentation</Button>
+        <Button variant="outlined" href="/nme-home/getting_started" className={classes.cssRoot}>Get Started</Button>
+        <Button variant="outlined" href="/nme-home/showcase" className={classes.cssRoot}>Showcase</Button>
+        <Button variant="outlined" href="/nme-home/demos" className={classes.cssRoot}>Demos</Button>
+        <Button variant="outlined" href="/nme-home/documentation" className={classes.cssRoot}>Documentation</Button>
       </div>
       <div className="Navigation-Section">
         <Button variant="outlined" href="https://github.com/haxenme/nme" className={classes.cssRoot}>Github</Button>
