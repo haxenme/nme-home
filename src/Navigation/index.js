@@ -26,8 +26,6 @@ function OutlinedButtons(props) {
         <Button variant="outlined" href="/nme-home/showcase" className={classes.cssRoot}>Showcase</Button>
         <Button variant="outlined" href="/nme-home/demos" className={classes.cssRoot}>Demos</Button>
         <Button variant="outlined" href="/nme-home/documentation" className={classes.cssRoot}>Documentation</Button>
-      </div>
-      <div className="Navigation-Section">
         <Button variant="outlined" href="https://github.com/haxenme/nme" className={classes.cssRoot}>Github</Button>
       </div>
     </div>
