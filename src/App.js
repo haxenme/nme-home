@@ -4,6 +4,7 @@ import './App.css';
 import Navigation from './Navigation';
 import { BrowserRouter as Router, Route} from 'react-router-dom';
 import GettingStarted from "./GettingStarted";
+import Showcase from "./Showcase";
 
 class App extends Component {
   render() {
@@ -19,7 +20,7 @@ class App extends Component {
             <GettingStarted />
           )} />
           <Route path="/showcase" render={() => (
-            <p>Showcase!</p>
+            <Showcase />
           )} />
           <Route path="/demos" render={() => (
             <p>Demos!</p>
