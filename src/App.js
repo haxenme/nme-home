@@ -3,6 +3,7 @@ import React, {Component} from 'react';
 import './App.css';
 import Navigation from './Navigation';
 import { BrowserRouter as Router, Route} from 'react-router-dom';
+import GettingStarted from "./GettingStarted";
 
 class App extends Component {
   render() {
@@ -15,7 +16,7 @@ class App extends Component {
             <p>Native Media Engine: A proven backend for native iOS, Android, Windows, Mac and Linux</p>
           )} />
           <Route path="/getting_started" render={() => (
-            <p>Getting started</p>
+            <GettingStarted />
           )} />
           <Route path="/showcase" render={() => (
             <p>Showcase!</p>
