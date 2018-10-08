@@ -1,6 +1,8 @@
+import Pakka from './images/pakka-pets.jpg';
+
 const tileData = [
   {
-    img: '/static/images/grid-list/pakka-pets.jpg',
+    img: Pakka,
     title: 'Pakka Pets',
     author: 'Proto Games',
     link: "http://www.pakkapets.com/"
